@@ -1,11 +1,16 @@
 import styles from './Catalogo.module.scss'
- import Mario from 
+
 
 
 export default function Catalogo(){
 
     return (
-        <img src={ Mario } alt="" />
+       <header className={styles.header}>
+
+           <div className={styles.header__text}>
+               "A melhor pizzaria do reino dos cogumelos"
+           </div>
+       </header>
     )
 
 
