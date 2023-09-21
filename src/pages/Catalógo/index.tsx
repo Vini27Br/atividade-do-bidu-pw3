@@ -13,11 +13,8 @@ export default function Catalogo(){
             </nav>
 
        <header className={styles.header}>
+            <img src={Banner} alt="" />
 
-           <div className={styles.header__text}>
-               <img src={Banner} alt="" />
-               "A melhor pizzaria do reino dos cogumelos"
-           </div>
        </header>
 
        </main>
