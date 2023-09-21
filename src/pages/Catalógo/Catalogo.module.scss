@@ -2,27 +2,19 @@
 @import "styles/breakpoints";
 
 .menu {
-  
-  background-image: url("/assets/Logo.png");
 
-  height: 100px;
-  width: 1000px;
+  background-color: #FACE5A;
 
-  margin-left: 36vw;
+  height: 5vw;
+  width: 100%;
   display: flex;
 
+  img{
+    height: 5vw;
+    display: flex;
+  }
 
-  background-repeat: no-repeat;
-  padding: 20px $padding-horizontal;
-  @media (max-width: $desktop_xsm) {
-    padding: 20px $padding-horizontal-mobile;
-  }
-  @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-    padding: 20px $padding-horizontal-sm;
-  }
-  @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-    padding: 20px $padding-horizontal-md;
-  }
+  
 }
 .header {
     align-items: center;
@@ -30,7 +22,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height:400px;
+    height: 20vw;
     padding: 0px $padding-horizontal;
     @media (max-width: $desktop_xsm) {
       padding: 0px $padding-horizontal-mobile;
@@ -42,9 +34,9 @@
       padding: 0px $padding-horizontal-md;
     }
     &__text {
-      color: white;
-      font-size: 3rem;
-      min-width: 400px;
+      color: #fafafa;
+      font-size: 3vw;
+      min-width: 20vw;
       width: 40%;
     }
   }
