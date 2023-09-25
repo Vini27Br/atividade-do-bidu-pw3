@@ -3,8 +3,15 @@ import filtros from './filtros.json'
 
 type Iopcao = typeof filtros[];
 
-export default function Filtros(opcao: Iopcao){
+export default function Filtros(){
 
-return(<div></div>)
+return(<div className={Styles.filtro}>
+    {filtros.map((opcao) => (
+        <button className={Styles.filtro__filtro} key={opcao.id}>
+            {opcao.label}
+        </button>
+    ))}
+</div>
 
+)
 }
