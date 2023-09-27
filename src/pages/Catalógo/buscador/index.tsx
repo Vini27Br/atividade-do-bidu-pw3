@@ -21,7 +21,7 @@ export default function Buscador({busca, setBusca}: Props){
              size={25}
              color= '#4c4d5e'
             />
-
+            
         </div>
     )
 }
